@@ -20,4 +20,8 @@
 	+ Goal: See where prices are rising, rental yields are attractive, or transaction volume is healthy.
 	+ Action: Recommend promising districts to investors based on data—not gut feeling.
 
+### User Guide (TBD)
+
+### Dashboard:
+
 <iframe title="tw-real-estate" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNjQ0YTBhZjItMzVlZS00YWFjLWE2NjEtZjg4NjRhMWIzOWMzIiwidCI6IjZmYjlhOTQzLWZhZDgtNGE3ZC04MWEyLTIyY2FkNmJiYWYyOSIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
