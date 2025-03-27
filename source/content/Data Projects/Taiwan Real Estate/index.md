@@ -204,7 +204,7 @@ DAG(TBD)
 
 ### Dashboard Catalog
 
-+ [[Market Analysis for Investor]]
++ [[Market Analysis for Investor]] (Click to view the dashboard)
 
 
 - Market Analysis for Homebuyer (TBD)
