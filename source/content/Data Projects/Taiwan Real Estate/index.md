@@ -44,6 +44,8 @@ The project includes the following key activities:
 
 - **Visualization:**  ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 
+For the source code, please visit the [github repo](https://github.com/josean-zorro/tw_real_estate)
+
 ### Infrastructure Overview
 
 Web scraping → Raw data storage in Google Cloud Storage → Data ingestion and loading into BigQuery using Meltano → Data transformation and modeling in BigQuery using dbt → Semantic dataset creation in Power BI → Interactive dashboards and analytics in Power BI.
