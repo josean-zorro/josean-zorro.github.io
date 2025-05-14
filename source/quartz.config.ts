@@ -10,11 +10,9 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "簡弘翔 Kevin Chien",
     pageTitleSuffix: "",
+    analytics: { provider: 'google', tagId: 'G-FHC5GZF1QQ' },
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
