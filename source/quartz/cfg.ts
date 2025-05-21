@@ -15,6 +15,10 @@ export type Analytics =
       tagId: string
     }
   | {
+      provider: "gtm"
+      tagId: string
+    }
+  | {
       provider: "umami"
       websiteId: string
       host?: string
