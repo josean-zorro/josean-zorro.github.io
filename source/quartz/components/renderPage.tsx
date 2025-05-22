@@ -217,8 +217,20 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}> 
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MF67SVR5"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        {cfg.analytics?.provider === "gtm" && (  
+          <>  
+            {/* Google Tag Manager (noscript) */}  
+            <noscript>  
+              <iframe   
+                src={`https://www.googletagmanager.com/ns.html?id=${cfg.analytics.tagId}`}  
+                height="0"   
+                width="0"   
+                style={{display: "none", visibility: "hidden"}}  
+              ></iframe>  
+            </noscript>  
+            {/* End Google Tag Manager (noscript) */}  
+          </>  
+        )}   
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}

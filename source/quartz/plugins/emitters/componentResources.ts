@@ -77,7 +77,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.css.push(popoverStyle)
   }
 
-  if (cfg.analytics?.provider === "google") {
+  if (cfg.analytics?.provider === "gtm") {
     const tagId = cfg.analytics.tagId
     componentResources.afterDOMLoaded.push(`
       const gtagScript = document.createElement("script")
